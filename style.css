@@ -1,0 +1,102 @@
+
+header {
+    background-color: orange;
+    padding: 20px;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(orange, rgb(255, 140, 0));
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+header h2 {
+
+    color: black;
+    font-style: inherit;
+    font-weight: 300;
+}
+footer {
+    background-color: #F8F8FF;
+    padding: 20px;
+
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 32px
+}
+footer p a {
+    text-decoration: none;
+    color: #333333;
+}
+footer p a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Source Sans Pro","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navigation {
+    border-width: 5px;
+    border-bottom-color: black;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navigation ul li {
+    float: left;
+}
+
+.navigation ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    background-color: #111;
+}
+
+.content {
+    margin-right: 20%;
+    padding: 1px 16px;
+    height: 100%;
+    background-color: #FFFAFA;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Source Code Pro Light";
+}
+
+.sidebar {
+    height:100%;
+    width:20%;
+    right:0%;
+    background-color:#fff;
+    //position:fixed!important;
+    position: absolute;
+    z-index:1;
+    overflow: auto;
+}
+.sidebar .bar-item {
+    text-align:left;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300
+}
+
+
